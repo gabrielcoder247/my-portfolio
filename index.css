@@ -1,0 +1,98 @@
+html,
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; */
+}
+
+.container>* {
+    flex: 1 1 auto;
+}
+
+header>* {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.single-shape .triangle {}
+
+.single-shape .square {
+    margin-left: -50px;
+}
+
+.single-shape {
+    position: absolute;
+    width: 111px;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+}
+
+.icon {
+    position: absolute;
+    width: 111px;
+    height: 74px;
+    right: 0px;
+    top: 0px;
+    justify-self: end;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.headline .about {
+    position: absolute;
+    width: 220px;
+    height: 100px;
+    left: 16px;
+    top: 104px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+.headline .main {
+    position: absolute;
+    width: 300px;
+    height: 126px;
+    left: 16px;
+    top: 224px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #1A2236;
+    margin-top: 200px;
+    align-self: flex-end;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.headline .collaboration {
+    position: absolute;
+    width: 288px;
+    height: 50px;
+    left: 16px;
+    top: 650px;
+    background: #1A2236;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: larger;
+}
