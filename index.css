@@ -20,8 +20,6 @@ header>* {
     justify-content: space-between;
 }
 
-.single-shape .triangle {}
-
 .single-shape .square {
     margin-left: -50px;
 }
