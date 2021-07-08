@@ -4,7 +4,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](static/images/my-portfolio.png)
+![screenshot](static/images/my-portfolio-1.png)
 
 Additional description about the project and its features.
 
