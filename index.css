@@ -56,12 +56,13 @@ nav .icon {
 
 .headline {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 200px;
 }
 
-.headline .about {
+.headline .name {
   position: absolute;
   width: 220px;
   height: 100px;
@@ -70,12 +71,25 @@ nav .icon {
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
-  color: rgb(99, 99, 241);
+  color: #1A2236;
   line-height: 0.9;
 }
 
 .headline button:hover {
   background-color: green;
+}
+
+.project-title{
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 804px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: #1A2236;
+  line-height: 0.9;
 }
 
 .headline .main {
@@ -113,3 +127,230 @@ nav .icon {
   font-size: 25px;
   text-align: center;
 }
+
+
+.projects {
+  display: flex;
+}
+
+
+@media all and (max-width:500px) {
+    .laptop {
+        position: absolute;
+        background-image: url(static/images/laptop.png);
+        height: 100vh;
+        width: 100%;
+        left: 16px;
+        top: 950px;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      .screen-1 {
+        position: absolute;
+        background-image: url(static/images/screen.png);
+        height: 100vh;
+        width: 100%;
+        left: 16px;
+        top: 1470px;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+    .screen-2 {
+        position: absolute;
+        background-image: url(static/images/device-1.png);
+        height: 100vh;
+        width: 100%;
+        left: 16px;
+        top: 2100px;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+    .screen-3 {
+        position: absolute;
+        background-image: url(static/images/device-4.png);
+        height: 100vh;
+        width: 100%;
+        left: 16px;
+        top: 2700px;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+    .screen-4 {
+        position: absolute;
+        background-image: url(static/images/device-3.png);
+        height: 100vh;
+        width: 100%;
+        left: 16px;
+        top: 3350px;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .screen-5 {
+      position: absolute;
+      background-image: url(static/images/device-3.png);
+      height: 100vh;
+      width: 100%;
+      left: 16px;
+      top: 3900px;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+  }
+
+}
+
+.project-name {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 16px;
+    top: 1210px;
+    height: 50vh;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #1A2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
+
+.project-name-2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 16px;
+    top: 1750px;
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #1A2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
+.project-name-3 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 16px;
+    top: 2360px;
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #1A2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
+
+.project-name-4 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 16px;
+    top: 2980px;
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #1A2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
+
+.project-name-5 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 16px;
+  top: 3620px;
+  height: 70vh;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #1A2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+}
+.project-name-6 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 16px;
+  top: 4175px;
+  height: 70vh;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #1A2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+}
+
+h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  color: #FFFFFF;
+}
+.languages {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.html {
+    background: #98DEDE;
+    margin: 10px;
+    padding: 10px;
+    width: 87px;
+    height: 20px;
+}
+.rails {
+    background: #98DEDE;
+    margin: 10px;
+    padding: 10px;
+    width: 87px;
+    height: 20px;
+}
+.js {
+    background: #98DEDE;
+    margin: 10px;
+    padding: 10px;
+    width: 87px;
+    height: 20px;
+}
+.see-this-project {
+    display: flex;
+    align-self: flex-start;
+    width: 178px;
+    height: 44px;
+    border: 1px solid #FFFFFF;
+    margin-left: 50px;
+    color: white;
+    margin-top: 50px;
+
+}
+.text {
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.arrow {
+    width: 20.57px;
+    height: 15.35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+}
+
+
