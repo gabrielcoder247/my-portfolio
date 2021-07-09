@@ -1,11 +1,14 @@
-html,
+
+
+@media all and (max-width:500px) {
+  html,
 body {
   box-sizing: border-box;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 header > * {
@@ -15,7 +18,7 @@ header > * {
 }
 
 .container > * {
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
 }
 
 .single-shape .triangle {
@@ -36,38 +39,42 @@ header > * {
 nav .icon {
   background-image: url(static/images/ic_menu.png);
   background-repeat: no-repeat;
-  position: absolute;
+  /* position: absolute; */
   width: 111px;
   height: 74px;
-  right: -40px;
-  top: 0;
-  margin-top: 30px;
-  justify-self: end;
-  align-self: center;
+  /* right: -40px;
+  top: 0; */
+  margin-left: 425px;
+  margin-top: -50px;
+  /* padding: 300px; */
+  /* justify-self: end;
+  align-self: center; */
 }
 
 .single-shape {
-  position: absolute;
+  /* position: absolute; */
   width: 111px;
   height: 74px;
-  left: 0;
-  top: 0;
+  /* left: 0;
+  top: 0; */
 }
 
 .headline {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  margin-top: 200px;
+  flex-wrap: wrap;
+  /* margin-top: 200px; */
 }
 
 .headline .name {
-  position: absolute;
+  /* position: absolute; */
   width: 220px;
   height: 100px;
-  left: 16px;
-  top: 104px;
+  /* left: 16px;
+  top: 104px; */
+  margin-right: 330px;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -80,11 +87,13 @@ nav .icon {
 }
 
 .project-title{
-  position: absolute;
-  width: 220px;
+  align-self: flex-start;
+  /* position: absolute; */
+  width: 380px;
   height: 100px;
-  left: 16px;
-  top: 804px;
+  /* left: 16px;
+  top: 804px; */
+  margin-left: 50px;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -93,11 +102,8 @@ nav .icon {
 }
 
 .headline .main {
-  position: absolute;
-  width: 300px;
+  width: 380px;
   height: 126px;
-  left: 16px;
-  top: 224px;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -107,20 +113,20 @@ nav .icon {
   margin-top: 200px;
   align-self: flex-end;
   text-align: justify;
-  margin-left: 80px;
+  margin-right: 150px;
 }
 
 .headline .collaboration {
-  position: absolute;
-  width: 288px;
-  height: 50px;
-  left: 16px;
-  top: 650px;
+  /* position: absolute; */
+  width: 400px;
+  height: 70px;
+  /* left: 16px;
+  top: 650px; */
   background: #1a2236;
-  margin-left: 80px;
-  margin-bottom: 80px;
-  justify-self: center;
-  align-self: center;
+   margin-right: 120px;
+   margin-top: 80px;
+  /* justify-self: center;
+  align-self: center; */
   text-decoration: none;
   color: white;
   font-weight: 200;
@@ -131,86 +137,87 @@ nav .icon {
 
 .projects {
   display: flex;
+  flex-direction: column;
+
 }
 
-
-@media all and (max-width:500px) {
     .laptop {
-        position: absolute;
+        /* position: absolute; */
         background-image: url(static/images/laptop.png);
         height: 100vh;
         width: 100%;
-        left: 16px;
-        top: 950px;
+        /* left: 16px;
+        top: 950px; */
+        margin-top: 100px;
         background-repeat: no-repeat;
         background-size: contain;
       }
 
       .screen-1 {
-        position: absolute;
+        /* position: absolute; */
         background-image: url(static/images/screen.png);
         height: 100vh;
         width: 100%;
-        left: 16px;
-        top: 1470px;
+        /* left: 16px;
+        top: 1470px; */
+        margin-top: 0px;
         background-repeat: no-repeat;
         background-size: contain;
 
     }
     .screen-2 {
-        position: absolute;
+        /* position: absolute; */
         background-image: url(static/images/device-1.png);
         height: 100vh;
         width: 100%;
-        left: 16px;
-        top: 2100px;
+        /* left: 16px;
+        top: 2100px; */
+        margin-top: 0px;
         background-repeat: no-repeat;
         background-size: contain;
 
     }
     .screen-3 {
-        position: absolute;
+        /* position: absolute; */
         background-image: url(static/images/device-4.png);
         height: 100vh;
         width: 100%;
-        left: 16px;
-        top: 2700px;
+        /* left: 16px;
+        top: 2700px; */
         background-repeat: no-repeat;
         background-size: contain;
 
     }
     .screen-4 {
-        position: absolute;
+        /* position: absolute; */
         background-image: url(static/images/device-3.png);
         height: 100vh;
         width: 100%;
-        left: 16px;
-        top: 3350px;
+        /* left: 16px;
+        top: 3350px; */
         background-repeat: no-repeat;
         background-size: contain;
 
     }
 
     .screen-5 {
-      position: absolute;
+      /* position: absolute; */
       background-image: url(static/images/device-3.png);
       height: 100vh;
       width: 100%;
-      left: 16px;
-      top: 3900px;
+      /* left: 16px;
+      top: 3900px; */
       background-repeat: no-repeat;
       background-size: contain;
 
   }
-
-}
-
-.project-name {
-    position: absolute;
+  .project-name {
+    /* position: absolute; */
     display: flex;
     align-items: center;
-    left: 16px;
-    top: 1210px;
+    /* left: 16px;
+    top: 1210px; */
+    margin-top: -300px;
     height: 50vh;
     width: 100%;
     flex-direction: column;
@@ -221,11 +228,12 @@ nav .icon {
 }
 
 .project-name-2 {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     align-items: center;
-    left: 16px;
-    top: 1750px;
+    /* left: 16px;
+    top: 1750px; */
+    margin-top: -300px;
     height: 70vh;
     width: 100%;
     flex-direction: column;
@@ -235,11 +243,12 @@ nav .icon {
     backdrop-filter: blur(1px);
 }
 .project-name-3 {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     align-items: center;
-    left: 16px;
-    top: 2360px;
+    /* left: 16px;
+    top: 2360px; */
+    margin-top: -300px;
     height: 70vh;
     width: 100%;
     flex-direction: column;
@@ -250,11 +259,12 @@ nav .icon {
 }
 
 .project-name-4 {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     align-items: center;
-    left: 16px;
-    top: 2980px;
+    /* left: 16px;
+    top: 2980px; */
+    margin-top: -300px;
     height: 70vh;
     width: 100%;
     flex-direction: column;
@@ -265,11 +275,13 @@ nav .icon {
 }
 
 .project-name-5 {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   align-items: center;
-  left: 16px;
-  top: 3620px;
+  /* left: 16px;
+  margin-top: -250px;
+  top: 3620px; */
+  margin-top: -300px;
   height: 70vh;
   width: 100%;
   flex-direction: column;
@@ -279,11 +291,12 @@ nav .icon {
   backdrop-filter: blur(1px);
 }
 .project-name-6 {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   align-items: center;
-  left: 16px;
-  top: 4175px;
+  /* left: 16px;
+  top: 4175px; */
+  margin-top: -300px;
   height: 70vh;
   width: 100%;
   flex-direction: column;
@@ -353,4 +366,12 @@ h3 {
     margin-top: 17px;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+
+}
 
