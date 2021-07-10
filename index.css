@@ -27,29 +27,15 @@
   nav .icon {
     background-image: url(static/images/ic_menu.png);
     background-repeat: no-repeat;
-
-    /* position: absolute; */
     width: 111px;
     height: 74px;
-
-    /* right: -40px;
-  top: 0; */
     margin-left: 425px;
     margin-top: -50px;
-
-    /* padding: 300px; */
-
-    /* justify-self: end;
-  align-self: center; */
   }
 
   .single-shape {
-    /* position: absolute; */
     width: 111px;
     height: 74px;
-
-    /* left: 0;
-  top: 0; */
   }
 
   .headline {
@@ -58,17 +44,11 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-
-    /* margin-top: 200px; */
   }
 
   .headline .name {
-    /* position: absolute; */
     width: 220px;
     height: 100px;
-
-    /* left: 16px;
-  top: 104px; */
     margin-right: 330px;
     font-style: normal;
     font-weight: normal;
@@ -78,18 +58,20 @@
   }
 
   .headline button:hover {
-    background-color: green;
+    border: solid 1px #1a2236;
+    background-color: #fff;
+    color: #1a2236;
+  }
+  .headline button:active {
+    border: solid 3px #1a2236;
+    background-color: #fff;
+    color: #1a2236;
   }
 
   .project-title {
     align-self: flex-start;
-
-    /* position: absolute; */
     width: 380px;
     height: 100px;
-
-    /* left: 16px;
-  top: 804px; */
     margin-left: 50px;
     font-style: normal;
     font-weight: normal;
@@ -114,23 +96,18 @@
   }
 
   .headline .collaboration {
-    /* position: absolute; */
     width: 400px;
     height: 70px;
-
-    /* left: 16px;
-  top: 650px; */
     background: #1a2236;
     margin-right: 120px;
     margin-top: 80px;
-
-    /* justify-self: center;
-  align-self: center; */
     text-decoration: none;
     color: white;
     font-weight: 200;
     font-size: 25px;
     text-align: center;
+    border: 0;
+    border-radius: 5px;
   }
 
   .projects {
@@ -139,175 +116,66 @@
   }
 
   .laptop {
-    /* position: absolute; */
     background-image: url(static/images/laptop.png);
     height: 100vh;
     width: 100%;
-
-    /* left: 16px;
-        top: 950px; */
     margin-top: 100px;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .screen-1 {
-    /* position: absolute; */
     background-image: url(static/images/screen.png);
     height: 100vh;
     width: 100%;
-
-    /* left: 16px;
-        top: 1470px; */
     margin-top: 0;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .screen-2 {
-    /* position: absolute; */
     background-image: url(static/images/device-1.png);
     height: 100vh;
     width: 100%;
-
-    /* left: 16px;
-        top: 2100px; */
     margin-top: 0;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .screen-3 {
-    /* position: absolute; */
     background-image: url(static/images/device-4.png);
     height: 100vh;
     width: 100%;
-
-    /* left: 16px;
-        top: 2700px; */
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .screen-4 {
-    /* position: absolute; */
     background-image: url(static/images/device-3.png);
     height: 100vh;
     width: 100%;
-
-    /* left: 16px;
-        top: 3350px; */
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .screen-5 {
-    /* position: absolute; */
     background-image: url(static/images/device-3.png);
     height: 100vh;
     width: 100%;
-
-    /* left: 16px;
-      top: 3900px; */
     background-repeat: no-repeat;
     background-size: contain;
   }
 
-  .project-name {
-    /* position: absolute; */
+  .project-name,
+  .project-name-2,
+  .project-name-3,
+  .project-name-4,
+  .project-name-5,
+  .project-name-6 {
     display: flex;
     align-items: center;
-
-    /* left: 16px;
-    top: 1210px; */
     margin-top: -300px;
     height: 50vh;
-    width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(1px);
-  }
-
-  .project-name-2 {
-    /* position: absolute; */
-    display: flex;
-    align-items: center;
-
-    /* left: 16px;
-    top: 1750px; */
-    margin-top: -300px;
-    height: 70vh;
-    width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(1px);
-  }
-
-  .project-name-3 {
-    /* position: absolute; */
-    display: flex;
-    align-items: center;
-
-    /* left: 16px;
-    top: 2360px; */
-    margin-top: -300px;
-    height: 70vh;
-    width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(1px);
-  }
-
-  .project-name-4 {
-    /* position: absolute; */
-    display: flex;
-    align-items: center;
-
-    /* left: 16px;
-    top: 2980px; */
-    margin-top: -300px;
-    height: 70vh;
-    width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(1px);
-  }
-
-  .project-name-5 {
-    /* position: absolute; */
-    display: flex;
-    align-items: center;
-
-    /* left: 16px;
-  margin-top: -250px;
-  top: 3620px; */
-    margin-top: -300px;
-    height: 70vh;
-    width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(1px);
-  }
-
-  .project-name-6 {
-    /* position: absolute; */
-    display: flex;
-    align-items: center;
-
-    /* left: 16px;
-  top: 4175px; */
-    margin-top: -300px;
-    height: 70vh;
     width: 100%;
     flex-direction: column;
     flex-wrap: wrap;
@@ -329,6 +197,7 @@
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
+
   }
 
   .html {
@@ -353,6 +222,9 @@
     padding: 10px;
     width: 87px;
     height: 20px;
+  }
+  .frw {
+    margin-top: -20px;
   }
 
   .see-this-project {
@@ -388,6 +260,8 @@
   .about-me {
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .abt {
@@ -435,6 +309,11 @@
     text-align: center;
     color: #fff;
   }
+  ul {
+    list-style-type: circle, #fff;
+    margin-left: 150px;
+    margin-right: 250px;
+  }
 
   .framework {
     width: 100%;
@@ -449,11 +328,18 @@
   }
 
   .cv {
-    width: 450px;
+    width: 430px;
     height: 80px;
-    margin-left: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
     background-color: #1a2236;
     margin-bottom: 50px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   .mycv {
